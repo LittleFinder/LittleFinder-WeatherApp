@@ -1,0 +1,132 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.h1 {
+	font-style: 20px;
+}
+
+.text-center {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.body {
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.images {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+
+}
+
+.pricing-body {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.pricing-row {
+	display: flex;
+	margin: 0px -22.5px;
+
+}
+
+.pricing-column {
+	flex: 0 1 25%;
+	padding: 0px 22.5px;
+}
+
+.package-item {
+	background-color: #fff;
+	border: 2px solid #0A5870;
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+hr {
+	background-color: #0A5870;
+}
+
+.city-title {
+	color: #0A5870;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.subtitle {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.weather-temp {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.weather-desc {
+	font-size: 16px;
+
+}
+
+.button-primary {
+	background-color: #4DB7FA;
+	border: 2px solid #0A5870;
+
+}
+
+select {
+	display: inline-block;
+	width: 50%;
+	border: 2px solid #0A5870;
+
+}
+
+select:hover,
+select:active,
+select:focus {
+	border: 2px solid #0A5870;
+}
+
+select::after,
+select::before,
+select::after:hover,
+select {
+	content: "";
+	color: #0A5870 !important;
+	background-color: #0A5870 !important;
+	box-sizing: border-box;
+}
+
+option,
+option:hover,
+option:active,
+option:focus {
+	color: #0A5870;
+}
+
+
+
+
+
+.unvisiable {
+	display: none;
+}
+
+body {
+	background: lightblue;
+}
